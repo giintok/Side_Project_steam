@@ -1,7 +1,5 @@
 streamlit
 numpy
 pandas
-math
 requests
-os
-TfidfVectorizer
+scikit-learn
