@@ -14,6 +14,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 basic_path = os.path.dirname(__file__)
 basic_file_path = os.path.join(basic_path, 'data')
 
+# secrets.json 파일의 상대 경로
+secrets_file_path = os.path.join(script_dir, 'secrets.json')
+
 # 게임 파일 경로
 file_path = os.path.join(basic_file_path, 'final_dataset.csv')
 games_df = pd.read_csv(file_path)
