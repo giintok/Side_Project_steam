@@ -8,6 +8,7 @@ Created on Mon Feb 12 00:07:00 2024
 import pandas as pd
 import os
 import requests
+import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 basic_path = os.path.dirname(__file__)
