@@ -19,7 +19,7 @@ file_path = os.path.join(basic_file_path, 'final_dataset.csv')
 games_df = pd.read_csv(file_path)
 
 # 환경 변수에서 스팀 API 키 가져오기
-with open('secrets.json') as f:
+with open(secrets_file_path) as f:
     secrets = json.load(f)
 STEAM_API_KEY = secrets['REACT_APP_API_KEY']
 
