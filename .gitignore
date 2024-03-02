@@ -1,2 +1,2 @@
 # Ignore secrets file
-secrets.json
+secrets.toml
