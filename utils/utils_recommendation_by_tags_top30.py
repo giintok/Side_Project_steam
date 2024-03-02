@@ -18,7 +18,9 @@ file_path = os.path.join(basic_file_path, 'final_dataset.csv')
 games_df = pd.read_csv(file_path)
 
 # 환경 변수에서 스팀 API 키 가져오기
-STEAM_API_KEY = os.environ.get('Side_Project_steam/utils/secrets.json')
+with open('secrets.json') as f:
+    secrets = json.load(f)
+STEAM_API_KEY = secrets['REACT_APP_API_KEY']
 
 def get_steam_game_image(app_id):
     base_url = "https://store.steampowered.com/api/appdetails"
