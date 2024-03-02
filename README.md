@@ -18,7 +18,7 @@ D. TF-IDF를 사용한 이유
 
 E. 사용 방법
 
-  streamlit 주소 : https://sideprojectsteam-nw2lrqh8w6tqfavdhjgpns.streamlit.app/
+  streamlit 주소 : [https://sideprojectsteam-nw2lrqh8w6tqfavdhjgpns.streamlit.app/](https://sideprojectsteam-nrqvmer99nrbuus4jy6rn4.streamlit.app/)
 
 F. 팀원 소개 및 깃 주소
   - 김기인 : 
