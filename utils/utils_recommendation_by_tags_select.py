@@ -9,12 +9,13 @@ import pandas as pd
 import os
 import requests
 import json
+import toml
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 basic_path = os.path.dirname(__file__)
 basic_file_path = os.path.join(basic_path, 'data')
 
-# secrets.toml 파일의 상대 경로
+# secrets.toml 파일의 경로
 secrets_toml_path = os.path.join(basic_path, 'secrets.toml')
 
 # 게임 파일 경로
