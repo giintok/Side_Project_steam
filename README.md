@@ -21,11 +21,17 @@ E. 사용 방법
   streamlit 주소 : [https://sideprojectsteam-7bgklftyuczenl8pkudewk.streamlit.app/](https://sideprojectsteam-ckss6muwumjrlerjhfjsip.streamlit.app/)
   
 F. 팀원 소개 및 깃 주소
-  - 김기인 : 
-  - 서정무 : 
-  - 손혜림 : 
-  - 최서진 : 
+  - 김기인 : https://github.com/giintok
+  - 서정무 : https://github.com/ExploreSeo
+  - 손혜림 : https://github.com/hyerimson
+  - 최서진 : https://github.com/
 
-G. 참고 자료
+G. 참고 자료 및 출처
+  - 케글 데이터 : https://www.kaggle.com/datasets/fronkongames/steam-games-dataset 2024-01-18일자
+  - <사용자 평점 기반 게임 추천 시스템>, Journal of the Korea Industrial Information Systems Research, 김종현, 조현정,김병만, 2018.09.19
+  - <PC 게임 리뷰의 감성분석>, 2020 한국정보기술학회 종합학술대회, 박준렬, 김은지, 이재용, 유형진, 권순형, 김동년, 강태원
+  - 크롤링 관련 https://www.youtube.com/watch?v=wwhJ32al364
+  - Steam 공식 사이트 인기순위 https://store.steampowered.com/search/?filter=topsellers&os=win
+  - 기획안 : https://docs.google.com/document/d/1q-01BLLLuYxJgBAzpztd2Yd9P1QmTote/edit
 
 H. 라이센스
