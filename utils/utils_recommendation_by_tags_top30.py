@@ -11,20 +11,16 @@ import requests
 import json
 import toml
 from sklearn.feature_extraction.text import TfidfVectorizer
+import streamlit as st
 
 basic_path = os.path.dirname(__file__)
 basic_file_path = os.path.join(basic_path, 'data')
 
-# secrets.toml 파일의 상대 경로
-secrets_toml_path = os.path.join(basic_path, 'secrets.toml')
-
 # 게임 파일 경로
 file_path = os.path.join(basic_file_path, 'final_dataset.csv')
 games_df = pd.read_csv(file_path)
-# 환경 변수에서 스팀 API 키 가져오기
-with open(secrets_toml_path) as f:
-    secrets = toml.load(f)
-STEAM_API_KEY = secrets['env']['REACT_APP_API_KEY']
+
+STEAM_API_KEY = st.secrets["REACT_APP_API_KEY"]
 
 def get_steam_game_image(app_id):
     base_url = "https://store.steampowered.com/api/appdetails"
