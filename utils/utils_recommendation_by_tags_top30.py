@@ -8,8 +8,6 @@ Created on Tue Feb 13 23:07:12 2024
 import pandas as pd
 import os
 import requests
-import json
-import toml
 from sklearn.feature_extraction.text import TfidfVectorizer
 import streamlit as st
 
@@ -20,6 +18,7 @@ basic_file_path = os.path.join(basic_path, 'data')
 file_path = os.path.join(basic_file_path, 'final_dataset.csv')
 games_df = pd.read_csv(file_path)
 
+# steam API 키 가져오기
 STEAM_API_KEY = st.secrets["REACT_APP_API_KEY"]
 
 def get_steam_game_image(app_id):
